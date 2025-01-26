@@ -16,11 +16,11 @@ function Home() {
     <div name='Home' className='max-w-screen-2xl container mx-auto px-4 md:px-20 my-20'>
 
 
-        <div className='flex flex-col md:flex-row'>
-        <div className='md:w-1/2 mt-12  md:mt-24 space-y-2 order-2 md:order-1'>
-           <span className='text-xl'> Welcome in my Feed</span>
+        <div className='flex flex-col md:flex-row items-center'>
+        <div className='md:w-1/2 mt-12  md:mt-24 space-y-2 order-2 md:order-1  text-white'>
+           <span className='text-xl '> Welcome in my Feed</span>
             <div className='flex  space-x-1 text-2xl md:text-4xl'>
-            <h1>Hello, I'm a </h1>
+            <h1 c>Hello, I'm a </h1>
             {/*<span >  Developer </span>*/}
           < ReactTyped
            className="text-red-700 font-bold "
@@ -51,7 +51,7 @@ function Home() {
           <br />
 
            {/* resume button */}
-           <div className='justify-between items-center '>
+           <div className='justify-between items-center hover:scale-110 duration-300'>
            <a
             href="/resume.pdf" // Relative path or hosted link to your resume
             className="button "
@@ -62,11 +62,12 @@ function Home() {
               padding: '10px 20px',
               textDecoration: 'none',
               color: 'white',
-              backgroundColor: '#333',
+              backgroundColor: '#339',
               borderRadius: '5px',
               fontSize: '16px',
               fontWeight: 'bold',
               marginRight: '50px',
+            
              
               transition: 'all 0.3s ease',
             }}
@@ -85,7 +86,7 @@ function Home() {
               padding: '10px 20px',
               textDecoration: 'none',
               color: 'white',
-              backgroundColor: '#333',
+              backgroundColor: '#339',
               borderRadius: '5px',
               fontSize: '16px',
               fontWeight: 'bold',

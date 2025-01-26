@@ -90,14 +90,16 @@ function Skills() {
 
 
   return (
+        
 
+     
      
     <div name='Skills' className='max-w-screen-2xl container mx-auto px-4 md:px-20 my-16'>
      <div>
-     <h1 className='text-3xl font-bold mb-5'>Skills</h1>
-     <p className=''>Skilled in Below Technology </p>
+     <h1 className='text-3xl text-white font-bold mb-4'>Skills</h1>
+     <p className='text-blue-600 font-semibold mb-10'>Skilled in Below Technology </p>
 
-     <div className='grid grid-cols-2 md:grid-cols-4 gap-7 my-3'> 
+     <div className='grid grid-cols-2 md:grid-cols-4 gap-7 my-3  text-white'> 
 
             {
                 cardItem.map(({id,logo,name})=>(

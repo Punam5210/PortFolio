@@ -11,21 +11,23 @@
                <div className='flex flex-col items-center justify-center'>
 
 
-           <div>
-             <a 
-                 href="https://www.linkedin.com/in/punam-kumari-bb80542a4" 
-                 target="_blank" 
-                 rel="noopener noreferrer"
-                 style={{ textDecoration: 'none', color: 'inherit' }}
+                   <div>
+                       <a 
+                        className='hover:scale-110'
+                         href="https://www.linkedin.com/in/punam-kumari-bb80542a4" 
+                         target="_blank" 
+                         rel="noopener noreferrer"
+                         style={{ textDecoration: 'none', color: 'white' }}
       >
-                <FaLinkedinIn size={30} />
-              </a>
+                      <FaLinkedinIn size={30} />
+                      </a>
                  
-                
-            </div>
+                    </div>
+
+
                
-               <div className='mt-8 border-t border-gray-700 flex flex-col items-center'>
-                <p className='text-sm '> &copy; 2024 Punam.All right reserved.  </p>
+               <div className='mt-8 border-t border-gray-500  text-white flex flex-col items-center'>
+                     <p className='text-sm '> &copy; 2024 Punam.All right reserved.  </p>
               
                </div>
 

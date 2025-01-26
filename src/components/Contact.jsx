@@ -35,8 +35,8 @@ function Contact() {
     <>
     <div name="Contact" 
           className='max-w-screen-2xl container mx-auto px-4 md:px-20 my-16'> 
-          <h1 className='text-3xl font-bold mb-4'>Contact me</h1>
-         <span>Please fill out form below to contact me</span>
+          <h1 className='text-3xl text-white font-bold mb-4'>Contact me</h1>
+         <span className='text-blue-600'>Please fill out form below to contact me</span>
     <div className='flex flex-col items-center justify-center mt-10'>
         <form
            onSubmit={handleSubmit(onSubmit)}

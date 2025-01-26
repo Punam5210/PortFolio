@@ -40,7 +40,7 @@ function PortFolio() {
       className="max-w-screen-2xl container mx-auto px-4 md:px-20 mt-10"
     >
       <div>
-        <h1 className="text-4xl font-extrabold text-gray-800 mb-5">Portfolio</h1>
+        <h1 className="text-4xl font-extrabold text-white mb-5">Portfolio</h1>
         <span className="text-lg font-semibold underline text-blue-600">
           Featured Projects
         </span>
@@ -78,7 +78,10 @@ function PortFolio() {
           ))}
         </div>
       </div>
+       
     </div>
+    
+    
   );
 }
 
